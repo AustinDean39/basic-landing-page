@@ -8,6 +8,21 @@ body {
     justify-content: space-between;
 }
 
+button {
+    background-color: #3882f6;
+    padding: 8px 30px;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+button:active {
+    background-color: #F9FAF8;
+    color: #3882f6;
+}
+
 .header {
     flex: auto;
     background-color: #1f2937;
@@ -66,21 +81,6 @@ body {
     color: #F9FAF8;
 }
 
-.hero-text button {
-    background-color: #3882f6;
-    padding: 8px 36px;
-    color: #F9FAF8;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 10px;
-    border: none;
-}
-
-.hero-text button:active {
-    background-color: #F9FAF8;
-    color: #3882f6;
-}
-
 .hero-img {
     max-width: 50%;
 }
@@ -123,4 +123,26 @@ body {
 
 .info-box figcaption {
     margin-top: 5px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 130px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-credit {
+    align-self: flex-end;
+    margin: 0 36px;
+    font-size: 22px;
+    font-weight: 600;
 }
